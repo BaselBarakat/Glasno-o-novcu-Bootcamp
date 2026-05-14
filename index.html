@@ -128,6 +128,24 @@
     color: #0F6E56;
     background: #E1F5EE;
   }
+
+  .dl-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 7px 14px;
+    border-radius: var(--border-radius-md);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.15s, transform 0.1s;
+    letter-spacing: 0.02em;
+  }
+  .dl-btn:hover { opacity: 0.82; transform: translateY(-1px); }
+  .dl-btn i { font-size: 13px; }
+  .dl-pptx { background: #FEF3C7; color: #92400E; border: 0.5px solid #F59E0B; }
+  .dl-docx { background: #E0F5F7; color: #015F6B; border: 0.5px solid #028090; }
 </style>
 </head>
 <body>
@@ -140,7 +158,7 @@
         <span>Bootcamp schedule</span>
       </div>
       <h2>Glasno o novcu – 5-Day Bootcamp</h2>
-      <p>Goldsmiths University of London & Algebra Bernays University </p>
+      <p>2 sessions per day · 6 project components · full team formation to final pitch</p>
     </div>
 
     <div class="day-tabs" role="tablist">
@@ -166,6 +184,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Group debrief: facilitator maps results on a visual board, highlighting the range of profiles in the room</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Discussion: how do different personality types contribute to digital campaign work, design, and development?</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Participant profile wall — names, skills, and personality type visible throughout the bootcamp</div></div>
+          <a href="D1S1_Intro_Personality_Profiling.pptx" class="dl-btn dl-pptx" download><i class="ti ti-download"></i> Session slides · PPTX</a>
         </div>
         <div class="session-card">
           <div class="session-badge badge-2"><i class="ti ti-moon" style="font-size:13px;"></i> Session 2 · Afternoon</div>
@@ -178,6 +197,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Official team formation based on personality balance and skill mix; teams receive their assigned project component</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Teams draft a one-page team agreement: communication norms, decision-making, accountability</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Formed teams with assigned components + signed team agreement per group</div></div>
+          <a href="D1S2_Team_Building_Handout.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Session handout · DOCX</a>
         </div>
       </div>
     </div>
@@ -197,6 +217,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Audience mapping: who are the primary users of each project component — demographics, digital habits, knowledge gaps</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Problem statement workshop: teams draft a crisp "How might we…" problem statement specific to their component</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> One-page market brief + audience persona + "How might we" problem statement per team</div></div>
+          <a href="D2S1_Market_Research.pptx" class="dl-btn dl-pptx" download><i class="ti ti-download"></i> Session slides · PPTX</a>
         </div>
         <div class="session-card">
           <div class="session-badge badge-2"><i class="ti ti-moon" style="font-size:13px;"></i> Session 2 · Afternoon</div>
@@ -208,6 +229,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Cross-team "idea swap": one member rotates to another team's wall and identifies synergies or borrowed ideas</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Opportunity ranking matrix: each team places top ideas on an impact vs. feasibility grid to identify their strongest 2–3 directions</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Ranked opportunity map with 2–3 shortlisted concept directions per team</div></div>
+          <a href="D2S2_Brainstorming_Worksheets.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Session handout · DOCX</a>
         </div>
       </div>
     </div>
@@ -227,6 +249,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Facilitator-led feedback round: one thing that is strong, one risk to address, one open question</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Role mapping workshop: teams assign Lead, Deputy, and Contributor roles across design, content, tech, and strategy tracks based on skills and personality profiles from Day 1</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Approved concept direction + role matrix + individual task ownership list</div></div>
+          <a href="D3S1_Pitch_Template.pptx" class="dl-btn dl-pptx" download><i class="ti ti-download"></i> Session slides + pitch template · PPTX</a>
         </div>
         <div class="session-card">
           <div class="session-badge badge-2"><i class="ti ti-moon" style="font-size:13px;"></i> Session 2 · Afternoon</div>
@@ -238,6 +261,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Peer review between teams: swap drafts and give one round of structured written feedback</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Build-day planning: teams produce a sprint board with tasks, owners, and time estimates for Day 4</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Low-fidelity prototype or structural outline + sprint board ready for Day 4</div></div>
+          <a href="D3S2_Architecture_Sprint.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Session handout · DOCX</a>
         </div>
       </div>
     </div>
@@ -258,6 +282,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Influencer team: finalise the collaboration brief, content guidelines, and proposed channel strategy</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">3D/visualisation team: produce one complete interactive concept or animated explainer demonstrating a financial topic</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Component draft at 70–80% completion, ready for review and integration</div></div>
+          <a href="D4S1_Build_Sprint_Checklists.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Build sprint checklists · DOCX</a>
         </div>
         <div class="session-card">
           <div class="session-badge badge-2"><i class="ti ti-moon" style="font-size:13px;"></i> Session 2 · Afternoon</div>
@@ -269,6 +294,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Feedback synthesis: teams compile testing notes into a prioritised list of issues — critical, nice-to-have, out-of-scope</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Iteration sprint: 45 minutes to address critical issues; facilitators help teams triage scope vs. time</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Tested and refined component at presentation quality + integration map showing cross-component connections</div></div>
+          <a href="D4S2_User_Testing_Handout.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Session handout · DOCX</a>
         </div>
       </div>
     </div>
@@ -288,6 +314,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Dress rehearsal: each team presents in full with a timer; peers provide structured written feedback on clarity, confidence, and content</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Final polish: 30-minute targeted revision window based on rehearsal notes</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Polished 10-minute presentation per team + complete demo-ready component</div></div>
+          <a href="D5S1_Presentation_Prep.docx" class="dl-btn dl-docx" download><i class="ti ti-download"></i> Presentation prep handout · DOCX</a>
         </div>
         <div class="session-card">
           <div class="session-badge badge-2"><i class="ti ti-moon" style="font-size:13px;"></i> Session 2 · Afternoon</div>
@@ -300,6 +327,7 @@
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Future roadmap workshop: each team maps their component's immediate next steps (next 2 weeks), medium-term milestones (1–3 months), and open questions to resolve before launch</div></div>
           <div class="activity-item"><div class="activity-dot"></div><div class="activity-text">Closing reflection: individual written response — one thing learned, one thing to carry forward, one message for the next cohort</div></div>
           <div class="deliverable"><i class="ti ti-file-check"></i><div class="deliverable-text"><strong>Output:</strong> Scored presentations + roadmap document per component + personal reflection record for each participant</div></div>
+          <a href="D5S2_Closing_Final_Presentations.pptx" class="dl-btn dl-pptx" download><i class="ti ti-download"></i> Session slides · PPTX</a>
         </div>
       </div>
     </div>
